@@ -7,13 +7,7 @@ ActiveAdmin.setup do |config|
   config.site_title = "Googleanalytics"
 
 
-  require 'admin/analytics_footer'
-
-ActiveAdmin.setup do |config|
-  config.namespace :admin do |admin|
-    config.view_factory.footer = Admin::AnalyticsFooter
-  end
-end
+  
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
   #
